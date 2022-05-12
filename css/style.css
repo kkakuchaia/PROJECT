@@ -14,15 +14,22 @@ a{
 }
 h1{
     color: white;
+    font-family: "Avenir Black"; 
+    display: flex;   
+    align-items: center;
+}
+h1 p{
+    font-family: 'Avenir LT Std book';
+    font-style: none;
 }
 .logo{
     display: flex;
     justify-content: space-between;
-    padding: 60px 11px 80px 11px;
+    padding: 60px 15px 80px 15px;
     align-items: center;
 }
 .logo img{
-height: 17px;
+    height: 17px;
 }
 .folowers{
     align-items: flex-start;
@@ -34,16 +41,17 @@ height: 17px;
     list-style: none;
 }
 .navbar ul li{
-   width: 218px;
-   padding: 19px 0;
-   margin-left: 15px;
-   display: flex;
-   align-items: center;
+    width: 228px;
+    padding: 19px 0;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
 }
 .navbar ul li a{
     color: white;
     margin-left: 21px;
-    font-size: 18px;
+    font-size: 19px;
+    font-family: "Avenir Medium"; 
 }
 .folowers ul{
     margin-top:31px;
@@ -74,11 +82,12 @@ height: 17px;
 /*header****************************************************/
 .header-bar{
     display: flex;
+    flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: space-between;
     height: 150px;
     padding-left: 400px;
-    padding-right: 40px;
+    padding-right: 90px;
     border-style: solid;
     border-width: 1px;
     border-color: #dfd0d0;
@@ -96,6 +105,7 @@ height: 17px;
 }
 .search-box input{
     border: none;
+    outline: none;
     background-color: #F8F8F8;
     width: 200px;
     height: 40px;
@@ -139,6 +149,7 @@ height: 17px;
     font-size: 30px;
     color: black;
     font-size: 18px;
+    font-family: 'Avenir LT Std book';
 }
 .filter-bar{
     display: flex;
@@ -146,6 +157,7 @@ height: 17px;
     align-items: center;
     padding-left: 25px;
     padding-right: 25px;
+    flex-wrap: wrap;
 }
 .filter-button{
     display: flex;
@@ -156,10 +168,12 @@ height: 17px;
     border-width: 2px;
     border-color: #cfc9c9;
     border-radius: 25px;
+    color: black;
 }
 .filter-button img{
     margin-right: 10px;
 }
+/*main info*************************************************/
 .main-info{
     display: flex;
     justify-content: space-between;
@@ -181,6 +195,7 @@ height: 17px;
     padding: 0 25px;
     width: 300px;
     font-size: 16px;
+    font-family: 'Avenir LT Std book';
 }
 .main-align{
     display: flex;
@@ -204,9 +219,9 @@ height: 17px;
     flex-direction: column;
 }
 .react-button img{
-   background-color: white;
-   padding: 4px;
-   border-radius: 8px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 8px;
     height: 28px;
     width: 28px;
     margin-bottom: 12px ;
@@ -224,8 +239,10 @@ height: 17px;
     margin: 0 auto;
 }
 h3{
-    margin-bottom: 54px;
-    font-size: 32px;
+    margin-bottom: 70px;
+    font-size: 40px;
+    font-family: "Avenir Heavy";
+    color: #232121;
 }
 .designers-sec{
     background-color: #FAFAFA;
@@ -233,8 +250,7 @@ h3{
 .top-designers{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;   
 }
 .top-designers div{
     display: flex;
@@ -245,14 +261,16 @@ h3{
     margin-bottom: 15px;
 }
 .individ-designers a{
-    color: black;
+    color: #555050;
     font-size: 18px;
     margin: 10px 0;
+    font-family: "Avenir Heavy";
 }
 .individ-designers p{
     opacity: 80%;
     color: #222222;
     font-size: 14px;
+    font-family: "Avenir Medium"; 
 }
 .top-designers span{
     margin: 25px 0px;
@@ -274,6 +292,7 @@ footer{
     width: 100%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
     padding-right: 200px;
@@ -285,10 +304,12 @@ footer{
 }
 .options p{
     margin-bottom: 36px;
+    font-family: "Avenir Black"; 
 }
 .options a{
     margin-bottom: 20px;
     color: #222222;
+    font-family: 'Avenir LT Std book';
 }
 .last-of-footer{
     max-width: 1290px;
