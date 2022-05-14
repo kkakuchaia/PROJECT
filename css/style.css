@@ -43,7 +43,8 @@ h1 p{
 .navbar ul li{
     width: 228px;
     padding: 19px 0;
-    margin-left: 15px;
+    padding-left: 10px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
 }
@@ -54,10 +55,11 @@ h1 p{
     font-family: "Avenir Medium"; 
 }
 .folowers ul{
-    margin-top:31px;
+    margin-top:10px;
 }
 .folowers ul li{
     padding: 10px 0;
+    padding-left: 8px;
 }
 .folowers ul li a{
     margin-left:30px
@@ -228,6 +230,7 @@ h1 p{
 }
 /*top designers section*******************************/
 .sec-designers{
+    margin-top: 100px;
     width: 100%;
     background-color: #FAFAFA;
     margin: 0px auto;
@@ -330,5 +333,40 @@ footer{
     justify-content: space-between;
 
 }
-
-
+/*************************************************************************************/
+.left-bar ul li:hover {
+    background-color: #FF2288;
+    border-radius: 15px;
+    transition-duration: 0.2s;
+}
+.filters div:hover{
+    background-color: #F2F2F2;
+    padding: 15px 25px;
+    border-radius: 20px;
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+}
+.filter-button:hover{ 
+    background-color: #F2F2F2;
+    transition-duration: 0.2s;
+}
+.first-sec:hover{
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    transition-duration: 0.2s;
+}
+.load-more-span span:hover{
+    padding: 20px 120px;
+    font-size: 18px;
+    transition-duration: 0.2s;
+}
+.individ-designers span:hover{
+    background-color: #F2F2F2;
+}
+.folowers ul li a:hover{
+    font-size: 15px;
+    transition-delay: 0.2s;
+}
+.react-button img:hover{
+    padding: 2px;
+}
