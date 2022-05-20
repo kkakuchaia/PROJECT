@@ -12,15 +12,15 @@ a{
     width: 319px;
     height: 100%;
 }
-h1{
+h1{ 
+    font-size: 30px;
     color: white;
     font-family: "Avenir Black"; 
     display: flex;   
     align-items: center;
 }
-h1 p{
+h1 span{
     font-family: 'Avenir LT Std book';
-    font-style: none;
 }
 .logo{
     display: flex;
@@ -31,7 +31,7 @@ h1 p{
 .logo img{
     height: 17px;
 }
-.folowers{
+.followers{
     align-items: flex-start;
 }
 .navbar ul{
@@ -54,17 +54,17 @@ h1 p{
     font-size: 19px;
     font-family: "Avenir Medium"; 
 }
-.folowers ul{
+.followers ul{
     margin-top:10px;
 }
-.folowers ul li{
+.followers ul li{
     padding: 10px 0;
     padding-left: 8px;
 }
-.folowers ul li a{
+.followers ul li a{
     margin-left:30px
 }
-.folowers p{
+.followers p{
     display: flex;
     max-width: 230px;
     width: 100%;
@@ -72,14 +72,16 @@ h1 p{
     color: white;
     margin-top: 60px;
     font-size: 16px;
+    font-family: 'Avenir LT Std book';
 }
-.folowers a{
+.followers a{
     display: flex;
     max-width: 230px;
     width: 100%;
     margin: 0 auto;
     color: white;
     font-size: 16px;
+    font-family: 'Avenir LT Std book';
 }
 /*header****************************************************/
 .header-bar{
@@ -363,10 +365,188 @@ footer{
 .individ-designers span:hover{
     background-color: #F2F2F2;
 }
-.folowers ul li a:hover{
+.followers ul li a:hover{
     font-size: 15px;
     transition-delay: 0.2s;
 }
 .react-button img:hover{
     padding: 2px;
+}
+/* responsive**************************************************************************************************/
+@media (max-width:1366px) {
+    .sidebar{
+        width: 240px;
+    }
+    h1{ 
+        font-size: 20px;
+        padding-left: 17px;
+    }
+    .logo img{
+        height: 12px;
+        width: 25px;
+    }
+    .logo{
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .navbar ul {
+        padding: 0px 32px 0px 20px;
+    }
+    .navbar ul li{
+        padding: 11px 12px;
+        max-width: 210px;
+    }
+    .navbar ul li img{
+        height: 20px;
+    }
+    .navbar ul li a{
+        font-size: 13px;
+    }
+    .followers ul li img{
+        height: 30px;
+    }
+    .followers p {
+        margin-top: 55px;
+        font-size: 12px;
+        margin-left: 43px;
+    }
+    .followers ul{
+        margin-top: 10px;
+    }
+    .followers ul li{
+        padding: 12px 0px 0px 12px;
+    }
+    .followers ul li a {
+        margin-left: 18px;
+        font-size: 13px;
+    }
+    .load-more {
+            padding: 24px 32px;
+            font-size: 10px;
+    }
+    .followers a{
+        font-size: 12px;
+    }
+    /*header-bar/////////////////////////////////////////////////////*/
+    .header-bar {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+        padding-left: 300px;
+        padding-right: 2px;
+    }
+    .search-box{
+        height: 40px;
+        width: 250px;
+        border-radius: 10px;
+    }
+    .search-box a img{
+        height: 15px;
+    }
+    .search-box input{
+        width: 100px;
+        height: 40px;
+    }
+    .personal-side{
+        width: 400px;
+    }
+    .pink{
+        font-size: 15px;
+    }
+    .personal-side-img{
+        height: 18px;
+    }
+    .prophile-img{
+        height: 40px;
+    }
+    .upload-button a {
+        font-size: 12px;
+    }
+    .upload-button {
+        background-color: #FF2288;
+        border-radius: 9px;
+        padding: 10px 11px;
+    }
+    /*filters////////////////////////////////////////////////////*/
+    .filters {
+        display: flex;
+        width: 450px;
+    }
+    .filter-bar{
+        padding-right: 50px;
+    }
+    .filters a {
+        font-size: 12px;
+    }
+    .filter-button {
+        padding: 10px 12px;
+        border-radius: 10px;
+    }
+    .filter-button img{
+        height: 18px;
+    }
+    .filter-button p{
+        font-size: 13px;
+    }
+    /*middle-page/////////////////////////////////////////////////////*/
+    .main-info {
+        padding-right: 32px;
+    }    
+    .first-sec img{
+        height: 165px;
+        width: 240px;
+    }
+    .main-info div p {
+        padding: 0 25px;
+        width: 230px;
+        font-size: 12px;
+    }
+    .react-button{
+        top: 20px;
+        left: 28px;
+    }
+    .react-button img{
+        height: 21px;
+        width: 21px;
+    }
+    .first-sec {
+        margin-bottom: 40px;
+    }
+    .main-align a{
+        margin-top: 40px;
+    }
+    .main-align a span {
+        padding: 12px 70px;
+        border-radius: 10px;
+        font-size: 12px;
+    }   
+    /*top-designers section/////////////////////////////////////*/ 
+    .sec-designers {
+        padding: 70px 60px 70px 350px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    .individ-designers img{
+        height: 90px;
+    }
+    .individ-designers a{        
+        font-size: 14px;
+    }    
+    .individ-designers p {
+        font-size: 11px;
+    }
+    .top-designers span {
+        padding: 11px 30px;
+    }
+    /*footer////////////////////////////////////////*/
+    footer {
+        padding: 70px 70px 70px 360px;
+    }
+    .footer-nav-bar {
+        padding-right: 0px;
+    }
+
 }
