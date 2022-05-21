@@ -346,8 +346,8 @@ footer{
 }
 .filters div:hover{
     background-color: #F2F2F2;
-    padding: 15px 25px;
-    border-radius: 20px;
+    padding: 7px 17px;
+    border-radius: 10px;
     transition-delay: 0.1s;
     transition-duration: 0.2s;
 }
@@ -583,8 +583,7 @@ footer{
     }
     .header-bar{
         max-width: 1000px;
-        padding-left: 0px;
-        
+        padding-left: 0px;   
     }
     .personal-side {
         width: 400px;
@@ -611,5 +610,4 @@ footer{
         max-width: 900px;
         padding: 70px 15px;
     }
-    
 }
