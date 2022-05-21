@@ -98,6 +98,10 @@ h1 span{
     border-top-style: none;
     border-right: none;
 }
+.header-sidebar-icon{
+    height: 70px;
+    display: none;
+}
 .search-box{
     height: 60px;
     width: 500px;
@@ -550,4 +554,62 @@ footer{
     .footer-nav-bar {
         padding-right: 0px;
     }
+}
+@media (max-width:1030px){
+    .sidebar{
+        display: none;
+    }
+    .mid-board{
+        max-width: 900px;
+        padding-left: 0px;
+    }
+    .filter-bar{
+        padding-right: 15px;
+    }
+    .main-info {
+        padding-right: 0px;
+    }
+    .first-sec img {
+        height: 215px;
+        width: 268px;
+    }
+    .react-button{
+        top: 37px;
+        left: 28px;
+    }
+    .react-button img{
+        height: 21px;
+        width: 21px;
+    }
+    .header-bar{
+        max-width: 1000px;
+        padding-left: 0px;
+        
+    }
+    .personal-side {
+        width: 400px;
+        padding-right: 11px;
+        justify-content: space-between;
+    }
+    .header-sidebar-icon{
+        display: block;
+    }
+    .sec-designers {
+        padding: 70px 0px 70px 0px;
+    }
+    .designers{
+        max-width: 900px;
+        padding: 0px 15px;
+    }
+    .top-designers span {
+        padding: 11px 73px;
+    }
+    .designers img {
+        height: 120px;
+    }
+    footer {
+        max-width: 900px;
+        padding: 70px 15px;
+    }
+    
 }
