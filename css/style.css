@@ -300,7 +300,6 @@ footer{
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
-    padding-right: 200px;
     padding-bottom: 70px;
 }
 .options{
@@ -394,7 +393,7 @@ footer{
     }
     .navbar ul li{
         padding: 11px 12px;
-        max-width: 210px;
+        max-width: 190px;
     }
     .navbar ul li img{
         height: 20px;
@@ -434,7 +433,7 @@ footer{
         align-items: center;
         justify-content: space-between;
         height: 80px;
-        padding-left: 300px;
+        padding-left: 270px;
         padding-right: 2px;
     }
     .search-box{
@@ -470,6 +469,9 @@ footer{
         padding: 10px 11px;
     }
     /*filters////////////////////////////////////////////////////*/
+    .mid-board{
+        padding-left: 290px;
+    }
     .filters {
         display: flex;
         width: 450px;
@@ -496,11 +498,11 @@ footer{
     }    
     .first-sec img{
         height: 165px;
-        width: 240px;
+        width: 225px;
     }
     .main-info div p {
         padding: 0 25px;
-        width: 230px;
+        width: 223px;
         font-size: 12px;
     }
     .react-button{
@@ -524,7 +526,7 @@ footer{
     }   
     /*top-designers section/////////////////////////////////////*/ 
     .sec-designers {
-        padding: 70px 60px 70px 350px;
+        padding: 70px 60px 70px 320px;
     }
     h3{
         font-size: 22px;
@@ -533,17 +535,17 @@ footer{
         height: 90px;
     }
     .individ-designers a{        
-        font-size: 14px;
+        font-size: 12px;
     }    
     .individ-designers p {
-        font-size: 11px;
+        font-size: 10px;
     }
     .top-designers span {
-        padding: 11px 30px;
+        padding: 11px 28px;
     }
     /*footer////////////////////////////////////////*/
     footer {
-        padding: 70px 70px 70px 360px;
+        padding: 70px 70px 70px 320px;
     }
     .footer-nav-bar {
         padding-right: 0px;
