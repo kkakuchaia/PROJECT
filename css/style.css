@@ -18,6 +18,7 @@ h1{
     font-family: "Avenir Black"; 
     display: flex;   
     align-items: center;
+    cursor:pointer;
 }
 h1 span{
     font-family: 'Avenir LT Std book';
@@ -193,6 +194,7 @@ h1 span{
     display: flex;
     flex-direction: column;
     position: relative;
+    cursor: pointer;
 }
 .first-sec img{
     height: 230px;
@@ -550,7 +552,7 @@ table tbody tr th{
         margin-bottom: 40px;
     }
     .main-align a{
-        margin-top: 30px;
+        margin-top: 10px;
     }
     .main-align a span {
         padding: 12px 70px;
