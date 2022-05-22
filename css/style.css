@@ -376,6 +376,35 @@ footer{
     padding: 2px;
 }
 /* responsive**************************************************************************************************/
+table{
+    display: flex;
+    flex-direction: column;
+    max-width: 1700px;
+    width: 100%;
+    margin: 0 auto;
+}
+table thead tr{
+    display: flex;
+    justify-content: space-between;  
+}
+table thead tr td{
+    padding: 20px 0px;
+    width: calc(100%/6);
+}
+table tbody tr{
+    display: flex;
+    justify-content: flex-start; 
+    border-style: dotted; 
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+table tbody tr th{
+    display: flex;
+    padding: 20px 0px;
+    width: calc(100%/6);
+}
 @media (max-width:1366px) {
     .sidebar{
         width: 240px;
@@ -521,7 +550,7 @@ footer{
         margin-bottom: 40px;
     }
     .main-align a{
-        margin-top: 40px;
+        margin-top: 30px;
     }
     .main-align a span {
         padding: 12px 70px;
