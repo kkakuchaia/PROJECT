@@ -270,6 +270,7 @@ h3{
 }
 .top-designers div img{
     margin-bottom: 15px;
+    cursor: pointer;
 }
 .individ-designers a{
     color: #555050;
@@ -290,6 +291,7 @@ h3{
     border-style: solid;
     border-width: 1px;
     border-color: #cfc9c9;
+    cursor: pointer;
 }
 /*footer************************************************/
 footer{
@@ -333,12 +335,18 @@ footer{
     border-top-color: #cfc9c9;
     border-top-width: 1px;
 }
+.last-of-footer p{
+    cursor: pointer;
+}
 .soc-media{
     width: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
+}
+.soc-media img{
+    cursor: pointer;
 }
 /*************************************************************************************/
 .left-bar ul li:hover {
@@ -431,6 +439,7 @@ table tbody tr th{
     .navbar ul li{
         padding: 11px 12px;
         max-width: 190px;
+        cursor: pointer;
     }
     .navbar ul li img{
         height: 20px;
